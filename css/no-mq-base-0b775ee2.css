@@ -416,6 +416,7 @@ code {
 }
 
 .sparkbox--logo-fallback {
+    display: block;
     width: 10em;
     height: 2.4em;
     background: url('images/sparkbox--logo-sprite.png') no-repeat 0 0;
