@@ -3107,11 +3107,11 @@ li:nth-child(5n+1) .img--grid {
 }
 
 .lt-ie8 .reading-style--quick-read .foundry-article--expandable-header {
-    background: url(images/oldie-plus.jpg) left center no-repeat;
+    background: url(images/oldie-plus.png) left center no-repeat;
 }
 
 .lt-ie8 .reading-style--quick-read .foundry-article--expandable-header.expandable-content--is-expanded {
-    background-image: url(images/oldie-minus.jpg);
+    background-image: url(images/oldie-minus.png);
 }
 
 .foundry-article--expandable-header:focus {
