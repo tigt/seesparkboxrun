@@ -3671,6 +3671,7 @@ a .wysiwyg a:hover,
   left: 0;
   width: 100%;
   max-height: 100%;
+  color: #71cedf;
 }
 
 .devices-hero--art_fallback {
@@ -3687,16 +3688,6 @@ a .wysiwyg a:hover,
   height: 100%;
   background: url('../img/devices-hero--art.png') no-repeat center;
   background-size: 48%;
-}
-
-.devices-hero--device--outline {
-  fill: none;
-  stroke: #71cedf;
-  stroke-width: 5;
-}
-
-.devices-hero--device--filled-shape {
-  fill: #71cedf;
 }
 
 .devices-hero--content {
