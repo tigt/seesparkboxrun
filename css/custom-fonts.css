@@ -52,38 +52,3 @@
        url("fonts/39e32aa7-13e2-40ab-ac9c-ea669789b9d6.ttf") format("truetype"),
        url("fonts/4c639ff3-732a-4d7a-b793-b83771f8e94c.svg#4c639ff3-732a-4d7a-b793-b83771f8e94c") format("svg");
 }
-
-@font-face {
-  font-family: Icon;
-  font-style: normal;
-  font-weight: normal;
-  src: url("icons/sparkbox.eot");
-  src: url("icons/sparkbox.eot?#iefix") format("embedded-opentype"),
-       url("icons/sparkbox.ttf") format("truetype"),
-       url("icons/sparkbox.woff") format("woff"),
-       url("icons/sparkbox.svg#sparkbox") format("svg");
-}
-
-[data-icon]:before {
-  color: white;
-  content: attr(data-icon);
-  font-family: Icon;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-[class*=" icon-"]:before {
-  font-family: Icon;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  text-transform: none;
-  speak: none;
-}

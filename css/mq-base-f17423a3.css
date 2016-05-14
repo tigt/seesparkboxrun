@@ -68,18 +68,6 @@ body,
   padding: 0;
 }
 
-.site-footer--logo-icon span,
-.site-header--logo-icon span {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  position: absolute !important;
-  overflow: hidden;
-  width: 1px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -643,21 +631,12 @@ code {
   display: block;
 }
 
-.button_has-icon:after,
-.foundry-article--content .the-link:after {
-  font-family: Icon;
-  font-weight: normal;
-  margin-left: 1em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .button_has-external-icon:after,
 .foundry-article--content .the-link:after {
-  font-size: 1.1em;
   position: relative;
   top: 1px;
-  content: '\e603';
+  content: '';
+  margin-left: 1em;
 }
 
 .button_center {
@@ -809,22 +788,16 @@ code {
 }
 
 .site-footer--logo-icon {
-  font-size: 1.75em;
   position: absolute;
   z-index: 2;
   left: 50%;
   width: 40px;
   height: 40px;
-  margin-top: -1.8em;
+  margin-top: -50px;
   margin-left: -20px;
-  padding: .325rem .325rem .325rem .325rem;
-  text-align: center;
-  vertical-align: middle;
+  padding: .325rem;
   border-radius: 2px;
   background: white;
-}
-
-.site-footer--logo-icon:before {
   color: #1c4c55;
 }
 
@@ -4379,22 +4352,16 @@ a .wysiwyg a:hover,
 }
 
 .site-header--logo-icon {
-  font-size: 3.05em;
   position: absolute;
   z-index: 2;
   left: 50%;
   width: 60px;
   height: 60px;
-  margin-top: -.65em;
+  margin-top: -30px;
   margin-left: -30px;
   padding: .325rem;
-  text-align: center;
-  vertical-align: middle;
   border-radius: 4px;
   background: white;
-}
-
-.site-header--logo-icon:before {
   color: #1c4c55;
 }
 
