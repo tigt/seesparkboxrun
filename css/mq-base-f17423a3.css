@@ -843,7 +843,7 @@ code {
   color: #5d989c;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 50em) {
   .site-footer--copyright {
     margin: .5rem 0;
   }
@@ -863,7 +863,7 @@ code {
   display: block;
 }
 
-@media (min-width: 35rem) {
+@media (min-width: 35em) {
   .site-footer--address--street {
     display: inline-block;
   }
