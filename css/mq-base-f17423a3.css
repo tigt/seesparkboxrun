@@ -264,34 +264,6 @@ code {
   }
 }
 
-#sizeTest {
-  font-size: 10px;
-}
-
-@media (min-width: 35em) {
-  #sizeTest {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 38em) {
-  #sizeTest {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 55em) {
-  #sizeTest {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 75em) {
-  #sizeTest {
-    font-size: 30px;
-  }
-}
-
 .is-animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
