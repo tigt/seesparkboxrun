@@ -1252,7 +1252,7 @@ code {
   background: #c7ecf2;
 }
 
-.no-js #nav:target .site-nav--list,
+#nav:target .site-nav--list,
 .site-nav--list.site-nav--display {
   overflow: visible;
   height: 18.5em;
@@ -1260,7 +1260,7 @@ code {
 }
 
 @media (min-width: 44em) {
-  .no-js #nav:target .site-nav--list,
+  #nav:target .site-nav--list,
   .site-nav--list.site-nav--display {
     height: auto;
     padding: 0;
@@ -1293,7 +1293,7 @@ code {
           transform-style: preserve-3d;
 }
 
-.no-js #nav:target .site-nav--item,
+#nav:target .site-nav--item,
 .site-nav--display .site-nav--item {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
@@ -1393,10 +1393,6 @@ code {
 
 .site-nav--highlight .site-nav--link:hover {
   border-bottom: 0;
-}
-
-.js .nav-text_hidden {
-  display: none;
 }
 
 .display-options--list {
