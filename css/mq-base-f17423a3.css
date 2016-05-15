@@ -715,25 +715,20 @@ code {
 }
 
 .sparkbox--logo-fallback {
-  display: none;
-}
-
-.no-inlinesvg .sparkbox--logo-fallback {
-  display: block;
   width: 10em;
   height: 2.4em;
   background: url('images/sparkbox--logo-sprite.png') no-repeat 0 0;
 }
 
-.no-inlinesvg .sparkbox--logo-fallback:hover {
+.sparkbox--logo-fallback:hover {
   background-position: 0 -68px;
 }
 
-.no-inlinesvg .home-header .sparkbox--logo-fallback {
+.home-header .sparkbox--logo-fallback {
   background-position: 0 -136px;
 }
 
-.no-inlinesvg .home-header .sparkbox--logo-fallback:hover {
+.home-header .sparkbox--logo-fallback:hover {
   background-position: 0 0;
 }
 
@@ -3564,10 +3559,6 @@ a .wysiwyg a:hover,
 }
 
 .devices-hero--art_fallback {
-  display: none;
-}
-
-.no-inlinesvg .devices-hero--art_fallback {
   position: absolute;
   top: 0;
   right: 0;
