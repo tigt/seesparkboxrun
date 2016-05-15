@@ -46,12 +46,6 @@ body,
   display: table;
 }
 
-.site-footer--social-link .icon {
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-}
-
 .display-options--list,
 .hero ul,
 .team-listing ul,
@@ -829,16 +823,13 @@ code {
 
 .site-footer--social-link .icon {
   display: block;
-  width: 3.5rem;
-  height: 3.5rem;
-  -webkit-transition: .2s ease-out;
-          transition: .2s ease-out;
-}
-
-.backgroundsize .site-footer--social-link .icon {
   width: 2.25rem;
   height: 2.25rem;
-  background-size: 100%;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: .2s ease-out;
+          transition: .2s ease-out;
 }
 
 .site-footer--social-link .icon:hover {
