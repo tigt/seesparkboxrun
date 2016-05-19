@@ -1,3 +1,34 @@
+@font-face {
+    font-family: Adelle;
+    src: url("fonts/adelle-3.eot?#i");
+    src: url("fonts/adelle-3.eot?#i") format("eot"), url("fonts/adelle-3.woff2") format("woff2"), url("fonts/adelle-3.woff") format("woff"), url("fonts/adelle-3.ttf") format("truetype")
+}
+@font-face {
+    font-family: Adelle;
+    font-style: italic;
+    src: url("fonts/adelle-3i.eot?#i");
+    src: url("fonts/adelle-3i.eot?#i") format("eot"), url("fonts/adelle-3i.woff2") format("woff2"), url("fonts/adelle-3i.woff") format("woff"), url("fonts/adelle-3i.ttf") format("truetype")
+}
+@font-face {
+    font-family: Adelle;
+    font-weight: bold;
+    src: url("fonts/adelle-6.eot?#i");
+    src: url("fonts/adelle-6.eot?#i") format("eot"), url("fonts/adelle-6.woff2") format("woff2"), url("fonts/adelle-6.woff") format("woff"), url("fonts/adelle-6.ttf") format("truetype")
+}
+@font-face {
+    font-family: Adelle;
+    font-style: italic;
+    font-weight: bold;
+    src: url("fonts/adelle-6i.eot?#i");
+    src: url("fonts/adelle-6i.eot?#i") format("eot"), url("fonts/adelle-6i.woff2") format("woff2"), url("fonts/adelle-6i.woff") format("woff"), url("fonts/adelle-6i.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    src: url("fonts/avenir-next-7.eot?#i");
+    src: local("AvenirNext-Bold"), url("fonts/avenir-next-7.eot?#i") format("eot"), url("fonts/avenir-next-7.woff2") format("woff2"), url("fonts/avenir-next-7.woff") format("woff"), url("fonts/avenir-next-7.ttf") format("truetype")
+}
+
 h1,
 h2,
 h3,
@@ -26,13 +57,52 @@ h6,
 .work-callout--brief,
 .work-callout--subtitle,
 .feature-gallery--item-title {
-  font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+  font-family: AvenirNext-Bold, Segoe UI, Arial, Droid Sans, sans-serif;
+  font-size-adjust: 0.498;
+}
+
+.avenir-loaded h1,
+.avenir-loaded h2,
+.avenir-loaded h3,
+.avenir-loaded h4,
+.avenir-loaded h5,
+.avenir-loaded h6,
+.avenir-loaded .button,
+.avenir-loaded .foundry-article--content .the-link,
+.avenir-loaded .site-footer--first,
+.avenir-loaded .site-nav--contact-info-item,
+.avenir-loaded .site-nav--highlight,
+.avenir-loaded .contact-info--container,
+.avenir-loaded .nav-button--text,
+.avenir-loaded .site-nav--link,
+.avenir-loaded .display-options--link,
+.avenir-loaded .foundry--meta-item,
+.avenir-loaded .foundry--message,
+.avenir-loaded .form--label,
+.avenir-loaded .form--button,
+.avenir-loaded .pagination--nav-link,
+.avenir-loaded .pagination--location,
+.avenir-loaded .foundry-article--meta-item,
+.avenir-loaded .reading-style--quick-read .foundry-article--expandable-header,
+.avenir-loaded .hero ul,
+.avenir-loaded .team-listing--item,
+.avenir-loaded .work-callout--brief,
+.avenir-loaded .work-callout--subtitle,
+.avenir-loaded .feature-gallery--item-title {
+  font-family: Avenir Next, AvenirNext-Bold, Segoe UI, Arial, Droid Sans, sans-serif;
 }
 
 body,
 .form--input,
 .team-listing--principle-content {
-  font-family: Adelle, 'Times New Roman', serif;
+  font-family: Rockwell, Cambria, Georgia, serif;
+  font-size-adjust: 0.512;
+}
+
+.adelle-loaded body,
+.adelle-loaded .form--input,
+.adelle-loaded .team-listing--principle-content {
+  font-family: Adelle, Rockwell, Cambria, Georgia, serif;
 }
 
 .hero:after,
@@ -475,64 +545,6 @@ code {
           animation-name: enterRight;
 }
 
-@-webkit-keyframes rollIn {
-  0% {
-    -webkit-transform: translateX(-100%) rotate(-120deg);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateX(0px) rotate(0deg);
-    opacity: 1;
-  }
-}
-
-@keyframes rollIn {
-  0% {
-    transform: translateX(-100%) rotate(-120deg);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0px) rotate(0deg);
-    opacity: 1;
-  }
-}
-
-.is-animated--rollIn {
-  -webkit-animation-name: rollIn;
-          animation-name: rollIn;
-}
-
-@-webkit-keyframes rollOut {
-  0% {
-    -webkit-transform: translateX(0px) rotate(0deg);
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: translateX(100%) rotate(120deg);
-    opacity: 0;
-  }
-}
-
-@keyframes rollOut {
-  0% {
-    transform: translateX(0px) rotate(0deg);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(100%) rotate(120deg);
-    opacity: 0;
-  }
-}
-
-.is-animated--rollOut {
-  -webkit-animation-name: rollOut;
-          animation-name: rollOut;
-}
-
 .button,
 .foundry-article--content .the-link {
   margin: 0;
@@ -666,10 +678,6 @@ code {
   height: 2.4em;
 }
 
-.no-inlinesvg .logo--svg {
-  display: none;
-}
-
 .logo--text,
 .logo--icon-box {
   fill: #fff;
@@ -691,27 +699,23 @@ code {
 }
 
 .logo--icon {
-  fill: #1c4c55;
+  color: #1c4c55;
 }
 
 .home-header .logo--icon {
-  fill: #50b7c8;
+  color: #50b7c8;
 }
 
-.logo--text {
-  display: none;
-}
-
-@media (min-width: 25em) {
+@media not all and (min-width: 25em) {
   .logo--text {
-    display: block;
+    display: none;
   }
 }
 
 .sparkbox--logo-fallback {
   width: 10em;
   height: 2.4em;
-  background: url('images/sparkbox--logo-sprite.png') no-repeat 0 0;
+  background: url('images/sparkbox--logo-sprite.png') no-repeat;
 }
 
 .sparkbox--logo-fallback:hover {
@@ -3522,10 +3526,6 @@ a .wysiwyg a:hover,
     top: -40%;
     width: 160%;
   }
-}
-
-.no-inlinesvg .devices-hero--art-wrapper {
-  display: none;
 }
 
 .devices-hero--art {
