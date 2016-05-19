@@ -3,10 +3,10 @@ See Sparkbox Run
 
 Proof-of-concept for making seesparkbox.com load hecka fast, without sacrificing prettiness, functionality, or browser support.
 
-|:sparkles:|:zap:&#x1F4E6;|:zap:&#x1F4E6;&#x1F4A8;|
-|-|-|-|
-|**Live Site** |[seesparkbox.com](https://seesparkbox.com/) | [seesparkboxrun.ti.gt](https://seesparkboxrun.ti.gt/) |
-| **WebPageTest**|[result/160519_KN_6RA](http://www.webpagetest.org/result/160519_KN_6RA/)| [result/160519_RG_6PD](https://www.webpagetest.org/result/160519_RG_6PD/)
+| :sparkles: | :zap::package: | :zap::package::dash: |
+|------------|------|-----|
+| **Live Site** | [seesparkbox.com](https://seesparkbox.com/) | [seesparkboxrun.ti.gt](https://seesparkboxrun.ti.gt/) |
+| **WebPageTest** |[result/160519_KN_6RA](http://www.webpagetest.org/result/160519_KN_6RA/) | [result/160519_RG_6PD](https://www.webpagetest.org/result/160519_RG_6PD/) |
 
 Takeaways
 ---------
